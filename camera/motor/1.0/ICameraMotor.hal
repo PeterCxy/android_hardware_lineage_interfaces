@@ -17,6 +17,6 @@
 package vendor.lineage.camera.motor@1.0;
 
 interface ICameraMotor {
-    onConnect(int8_t cameraId);
-    onDisconnect(int8_t cameraId);
+    onConnect(string cameraId);
+    onDisconnect(string cameraId);
 };
